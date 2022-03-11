@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;500&display=swap');
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #5079FE; /*navbar*/
+	--f7-navbar-text-color:#fff;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--color-azul-claro:#BED5DD;
+	--color-azul:#97D4D5;
+	--color-gris:#7F7F7F;
+	--color-rosado:#EFA4B8;
+	--color-cafe:#794D0C;
+}
+body{
+	font-family: 'fredoka-one'sans-serif;
+	color: var(--color-gris);
+}
+.page-content{
+	color: #fff;
+	background-color: var(--color-azul);
+}
+.block-title{
+	color: #fff;
+}
+
+.navbar a{
+	color: #fff !important;
+}
+nav.toolbar a,
+nav.tabbar-label{
+	color: var(--color-rosado);
+}
+.navbar-inner{
+	background-color: var(--color-rosado)
+}
+.panel-left{
+	background-color: #FFFFFF;
+}
+.panel-left .list{
+	margin-top: 0;
+}
+.panel-left .list ul{
+	background-color: transparent;
+	font-size: 13px;
+}
+.panel-left .list a{
+	color: var(--color-negro);
+}
+.panel-info{
+	background-color: #fff;
+	color: var(--color-gris);
+	text-align: center;
+	padding: 20px 0;
+}
+.panel-info span{
+	font-size: 40px;
+}
+.bg-mascota{
+	background-image: url("../img/10691555m.jpeg");
+	background-size: cover;
+	padding-left: 20%;
+}
+.bg-masc2{
+	background-image: url("../img/1636307686_778477_1636307902_noticia_normal_recorte1.jpeg");
+	background-size: cover;
+	padding-left: 20%;
+}
+.bg-masc3{
+	background-image: url("../img/4KGIM5VTZNFCHCGN2ZFIKLMSPU.jpeg");
+	background-size: cover;
+	padding-left: 20%;
+}
+.bg-masc4{
+	background-image: url("../img/gato-dia-internacional.png");
+	background-size: cover;
+	padding-left: 20%;
+}
+
+
+.block-title{
+	text-align: center;
+	font-family:  
+}
+#servicios .card{
+	height: 250px;
+	width: 50%;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	align-content: center;
+	padding-left: 50%;
+	
+}
+#servicios .card-content{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	
+	background-color: rgba(239,164,184,0.60);
+	width: 100%;
+	height: 50px;
+	padding-left: 50%;
+	   
+}
+#servicios .card h4{
+	height: 250px;
+	width: 50%;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+}
+
+#servicios2 .card-content {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	
+	background-color: rgba(239,164,184,0.60);
+	width: 100%;
+	height: 50px;
+	padding-left: 50%;
+}
+#servicios2 .card{
+	height: 250px;
+	width: 50%;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	padding-left: 50%;
+}
+
+
+#servicios2 .card h4{
+	height: 250px;
+	width: 50%;
+	color: #fff;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+
+
